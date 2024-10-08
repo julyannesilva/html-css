@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas:
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas:
+            em, ex, rem, VW, vh, %
+            16px geralmente = 1em
+
+            weight - peso
+            width - largura
+            height - altura
+            */
+
+            font-size: 16px;
+            font-weight: normal;
+            /* lighter, normal, bold, bolder */
+        }
+
+        h1 {
+           
+            /* shorthand font
+
+            - Font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3rem;
+            font font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font:bold 2em 'Work Sans'
+        }
+
+    
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, id illo aliquam eaque ratione hic enim iure dolores animi eveniet pariatur delectus totam repudiandae eligendi officia amet quas ullam. Libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, hic sapiente perferendis nam veritatis, fugit quidem esse rem officiis facilis fuga voluptatem repellat unde at minus laudantium ullam expedita itaque.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime natus itaque illum, commodi, eligendi porro quaerat veniam vel, delectus deleniti amet voluptatum. Itaque quae libero tempore repellat! Quis, reiciendis qui.</p>
+    <h2>Subtítulo do execício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel rerum, dolorum rem quod non amet aperiam repudiandae optio perferendis adipisci nesciunt quo minus illo eius, corporis ratione dolor consequatur inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit fugit corporis dolor quasi in accusantium laudantium laborum, vel deserunt pariatur architecto ea nisi nostrum quod officiis porro placeat libero repellendus!</p>
+</body>
+</html>
