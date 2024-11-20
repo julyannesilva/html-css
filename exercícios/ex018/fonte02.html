@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+            
+            /*
+            Tipos de format () 
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype- att (Apple Advanced Typography)
+            - svg
+            */
+
+            @font-face {
+                font-family: 'Billing Lottre';
+                src: url('billing lottre.otf') format('opentype');
+                src: url('billing lottre.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+
+            }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family:'Billing Lottre';
+            font-size: 3em;
+            font-weight: normal;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        VOGUE
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, rem. Culpa, repellendus. Ratione nesciunt dolore nobis? Recusandae repellat non quibusdam saepe cumque perferendis cupiditate aliquam ab quam tenetur, suscipit omnis!</p>
+</body>
+</html>
