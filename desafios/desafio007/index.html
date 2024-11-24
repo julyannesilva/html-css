@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    Você está vendo a imagem completa? Experimente <ins><strong>diminuir e ampliar o tamanho da sua janela</strong></ins> para aproveitar a melhor experiência! &#x1F60A;
+    <hr>
+
+    <picture>
+        <source media="(min-width: 450px)" srcset="f" type="">
+        <source media="(max-width: 1500px)" srcset="fototeste1.jpg" type="">
+        <img src="fototeste.jpg" alt="imagem flexível">
+    </picture>
+</body>
+</html>
