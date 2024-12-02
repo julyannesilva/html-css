@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagem flexível</title>
+    <style>
+          img {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <h1>Imagem Flexível</h1>
     Você está vendo a imagem completa? Experimente <ins><strong>diminuir e ampliar o tamanho da sua janela</strong></ins> para aproveitar a melhor experiência! &#x1F60A;
-    <hr>
 
     <picture>
-        <source media="(min-width: 450px)" srcset="f" type="">
-        <source media="(max-width: 1500px)" srcset="fototeste1.jpg" type="">
-        <img src="fototeste.jpg" alt="imagem flexível">
+        <source media="(max-width: 320px)" srcset="imagens/pernambuco-p.png" type="imagem/png">
+        <source media="(max-width: 720px)" srcset="imagens/pernambuco-m.png" type="imagem/png">
+        <img src="imagens/pernambuco-g.png" alt="imagem flexivel">
     </picture>
 </body>
 </html>

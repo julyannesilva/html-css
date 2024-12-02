@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="html.ico.ico" type="image/x-icon">
-    <title>Social</title>
+    <title>Midias em HTML5</title>
 </head>
 <body>
-    <h1>Minhas redes sociais</h1>
-    <img src="minhafoto.png" alt="">
-    <p><hr>Meu nome é <strong>Julyanne Silva</strong>, sou estudante de tecnologia, comecei agora em 2024.</p>
-    <h2>Como falar comigo?</h2>
-    <ol>
-        <ul type="circle"> 
-            <li>Você pode acessar meu <a href="https://www.instagram.com/dejota_imports01/" target="_blank" rel="nofollow">Instagram</a></li>
-            <li> <p>Você pode acessar meu <a href="https://github.com/julyannesilva/julyanne.dev" target="_blank" rel="nofollow">GitHub</a></li>
-            <li>Você pode acessar meu <a href="https://www.facebook.com/Julyanne.s00/" target="_blank" rel="nofollow">Facebook</a></li></p>
-        </ul>
-    </ol>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Moonlight Sonata (by Beethoven) - Beethoven.mp3" type="audio/mpeg">
+        <source src="midia/Moonlight Sonata (by Beethoven) - Beethoven.ogg" type="audio/ogg">
+        <source src="midia/Moonlight Sonata (by Beethoven) - Beethoven.wav" type="audio/wav">
+        <p>Infelizmente o navegador não consegue reproduzir áudio.</p> <a href="midia/Moonlight Sonata (by Beethoven) - Beethoven.mp3">Clique aqui para baixar o arquivo MP3.</a>
+    </audio>
 </body>
 </html>
